@@ -51,5 +51,3 @@ Provide a concise evaluation with:
 - Specific recommendations
 
 ---
-
-*Origin: 2026-01-16 conversation re: Memgraph + SKILL Learning Enrichment*
