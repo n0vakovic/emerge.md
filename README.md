@@ -17,6 +17,7 @@ The difference between levels isn't features — it's the **relationship** betwe
 
 ## Frameworks
 
+- **[Basic Eval](SKILL_BASIC_EVAL.md)** — Score a skill against Anthropic's best practices for authoring quality. 10 criteria (Description, Conciseness, Progressive Disclosure, Degrees of Freedom, Decision Clarity, Failure Handling, Examples, Consistency, Model Robustness, Testability) each 0–4, totaling /40
 - **[Evolution Eval](SKILL_EVOLUTION_EVAL.md)** — Position a workflow on the ladder using fit criteria and diagnostic questions
 - **[Traceability Eval](SKILL_TRACEABILITY_EVAL.md)** — 7-level rubric (L0–L6) for whether you can reconstruct what happened and why. The foundation — without traceability, intelligence qualities can't develop
 - **[Intelligence Eval](SKILL_INTELLIGENCE_EVAL.md)** — Score 11 qualities (Memory, Calibration, Voice, Awareness, Connection, Humility, Flexibility, Agency, Restraint, Predictability, Resourceful) each 0–4, totaling /44. Includes priority matrix by workflow type
@@ -28,6 +29,11 @@ The difference between levels isn't features — it's the **relationship** betwe
 
 ```
 Input: Any workflow/skill
+         ↓
+┌────────────────────────────┐
+│ 0. BASIC EVAL              │  Is the skill well-authored?
+│    (SKILL_BASIC_EVAL)      │  Score /40 against Anthropic best practices
+└────────────────────────────┘
          ↓
 ┌────────────────────────────┐
 │ 1. EVOLUTION EVAL          │  Where on the ladder?
